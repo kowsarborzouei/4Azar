@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Table</title>
+</head>
+<body>
+<div class="container">
+    <div class="tab tab-1">
+        <table id="table" border="1">
+            <tr>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>ID</th>
+            </tr>
+            <tr>
+                <td>kowsar</td>
+                <td>borzuei</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>mahsa</td>
+                <td>ghasemi</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>zahra</td>
+                <td>amini</td>
+                <td>27</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tab tab-2">
+        FIRST NAME :<input type="text" name="fName" id="fName">
+        LAST NAME :<input type="text" name="lName" id="lName">
+        ID :<input type="text" name="id" id="id">
+
+
+        <button onclick="addHtmlTableRow()">Add</button>
+        <button onclick="editHtmlTableSelectedRow()">Edit</button>
+        <button onclick="removeSelectedRow()">Remove</button>
+    </div>
+
+
+
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
